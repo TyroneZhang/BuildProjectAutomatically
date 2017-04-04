@@ -1,0 +1,244 @@
+BCSymbolMap Version: 2.0
+-[ViewController viewDidLoad]
+-[ViewController didReceiveMemoryWarning]
+-[ViewController colorChangedWithNewColor:]
+-[ViewController colorChangedWithRed:green:blue:]
+-[ViewController brightnessChangedWithNumber:]
+-[ViewController lightImageView]
+-[ViewController setLightImageView:]
+-[ViewController brightLabel]
+-[ViewController setBrightLabel:]
+-[ViewController .cxx_destruct]
+_OBJC_CLASS_$_ViewController
+_OBJC_IVAR_$_ViewController._lightImageView
+_OBJC_IVAR_$_ViewController._brightLabel
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_TYAnnulusColorViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_TYAnnulusColorViewDelegate
+_OBJC_METACLASS_$_ViewController
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/ViewController.m
+/Users/demon_yao/GithubRepositories/TYColorDisk
+-[TYGradientLayer initGradientLayerWithFrame:shape:colors:locations:drawPoints:]
+-[TYGradientLayer getColorArrayByColorNumberArray:]
+-[TYGradientLayer changeColorWithDegreeValue:direction:animatable:]
+-[TYGradientLayer colorSpace]
+-[TYGradientLayer setColorSpace:]
+-[TYGradientLayer .cxx_destruct]
+_OBJC_CLASS_$_TYGradientLayer
+_OBJC_CLASS_$_TYColorSpace
+_OBJC_IVAR_$_TYGradientLayer._colorSpace
+_OBJC_METACLASS_$_TYGradientLayer
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/ColorDisk/ColorView/TYGradientLayer.m
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/ColorDisk/ColorView/TYGradientLayer.h
+-[BrightnessOperationView awakeFromNib]
+-[BrightnessOperationView setFrame:]
+-[BrightnessOperationView initializeScrollView]
+-[BrightnessOperationView scrollViewDidScroll:]
+-[BrightnessOperationView scrollViewDidEndDecelerating:]
+-[BrightnessOperationView scrollViewDidEndDragging:willDecelerate:]
+-[BrightnessOperationView delegate]
+-[BrightnessOperationView setDelegate:]
+-[BrightnessOperationView scrollView]
+-[BrightnessOperationView setScrollView:]
+-[BrightnessOperationView .cxx_destruct]
+_kMaxOfBrightnessNumber
+_OBJC_CLASS_$_BrightnessOperationView
+_OBJC_IVAR_$_BrightnessOperationView._maxHeight
+_OBJC_IVAR_$_BrightnessOperationView._perHeight
+_OBJC_IVAR_$_BrightnessOperationView._brightNum
+_OBJC_IVAR_$_BrightnessOperationView._delegate
+_OBJC_IVAR_$_BrightnessOperationView._scrollView
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+_OBJC_METACLASS_$_BrightnessOperationView
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/ColorDisk/BrighrnessView/BrightnessOperationView.m
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/ColorDisk/BrighrnessView/BrightnessOperationView.h
+-[TYColorSpace init]
+-[TYColorSpace initWithStartRedValue:startGreenValue:startBlueValue:endRedValue:endGreenValue:endBlueValue:]
+-[TYColorSpace resetColorSpace]
+-[TYColorSpace changeColorWithDegreeValue:direction:]
+-[TYColorSpace startColorValue]
+-[TYColorSpace setStartColorValue:]
+-[TYColorSpace endColorValue]
+-[TYColorSpace setEndColorValue:]
+-[TYColorSpace .cxx_destruct]
+_kMaxColorValue
+_OBJC_CLASS_$_TYColorValue
+_OBJC_IVAR_$_TYColorSpace._startColorValue
+_OBJC_IVAR_$_TYColorSpace._endColorValue
+_OBJC_METACLASS_$_TYColorSpace
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/ColorDisk/ColorModels/TYColorSpace.m
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/ColorDisk/ColorModels/TYColorSpace.h
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[AppDelegate applicationWillResignActive:]
+-[AppDelegate applicationDidEnterBackground:]
+-[AppDelegate applicationWillEnterForeground:]
+-[AppDelegate applicationDidBecomeActive:]
+-[AppDelegate applicationWillTerminate:]
+-[AppDelegate window]
+-[AppDelegate setWindow:]
+-[AppDelegate .cxx_destruct]
+_OBJC_IVAR_$_AppDelegate._window
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+_OBJC_METACLASS_$_AppDelegate
+_OBJC_CLASS_$_AppDelegate
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/AppDelegate.m
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/AppDelegate.h
+-[TYGradientGroup createGradientLayersWithFrame:centerPoint:radius:lineWidth:]
+-[TYGradientGroup configureGradientArray]
+-[TYGradientGroup annulusShapeWithStartDgree:endDgree:]
+-[TYGradientGroup leftDownColor1]
+-[TYGradientGroup leftDownColor2]
+-[TYGradientGroup leftDownColor3]
+-[TYGradientGroup leftDownColor4]
+-[TYGradientGroup leftDownColor5]
+-[TYGradientGroup leftTopColor1]
+-[TYGradientGroup leftTopColor2]
+-[TYGradientGroup leftTopColor3]
+-[TYGradientGroup leftTopColor4]
+-[TYGradientGroup leftTopColor5]
+-[TYGradientGroup rightDownColor1]
+-[TYGradientGroup rightDownColor2]
+-[TYGradientGroup rightDownColor3]
+-[TYGradientGroup rightDownColor4]
+-[TYGradientGroup rightDownColor5]
+-[TYGradientGroup rightTopColor1]
+-[TYGradientGroup rightTopColor2]
+-[TYGradientGroup rightTopColor3]
+-[TYGradientGroup rightTopColor4]
+-[TYGradientGroup rightTopColor5]
+-[TYGradientGroup changeValueWithDegreeValue:direction:animatable:Block:]
+-[TYGradientGroup gradientArray]
+-[TYGradientGroup setGradientArray:]
+-[TYGradientGroup centerPoint]
+-[TYGradientGroup setCenterPoint:]
+-[TYGradientGroup radius]
+-[TYGradientGroup setRadius:]
+-[TYGradientGroup lineWidth]
+-[TYGradientGroup setLineWidth:]
+-[TYGradientGroup colorViewFrame]
+-[TYGradientGroup setColorViewFrame:]
+-[TYGradientGroup .cxx_destruct]
+_OBJC_IVAR_$_TYGradientGroup._gradientArray
+_OBJC_IVAR_$_TYGradientGroup._centerPoint
+_OBJC_IVAR_$_TYGradientGroup._radius
+_OBJC_IVAR_$_TYGradientGroup._lineWidth
+_OBJC_IVAR_$_TYGradientGroup._colorViewFrame
+_OBJC_METACLASS_$_TYGradientGroup
+_OBJC_CLASS_$_TYGradientGroup
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/ColorDisk/ColorView/TYGradientGroup.m
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/ColorDisk/ColorView/TYGradientGroup.h
+-[TYColorValue init]
+-[TYColorValue initWithRedValue:greenValue:blueValue:]
+-[TYColorValue resetColorValue]
+-[TYColorValue changeColorWithDegreeValue:direction:]
+-[TYColorValue judgeColorRange]
+-[TYColorValue changeFromRedRange:direction:]
+-[TYColorValue changeFromYellowRange:direction:]
+-[TYColorValue changeFromGreenRange:direction:]
+-[TYColorValue changeFromCyanRange:direction:]
+-[TYColorValue changeFromBlueRange:direction:]
+-[TYColorValue changeFromPurpleRange:direction:]
+-[TYColorValue redValue]
+-[TYColorValue setRedValue:]
+-[TYColorValue greenValue]
+-[TYColorValue setGreenValue:]
+-[TYColorValue blueValue]
+-[TYColorValue setBlueValue:]
+-[TYColorValue sourceRedValue]
+-[TYColorValue setSourceRedValue:]
+-[TYColorValue sourceGreenValue]
+-[TYColorValue setSourceGreenValue:]
+-[TYColorValue sourceBlueValue]
+-[TYColorValue setSourceBlueValue:]
+_OBJC_IVAR_$_TYColorValue._redValue
+_OBJC_IVAR_$_TYColorValue._greenValue
+_OBJC_IVAR_$_TYColorValue._blueValue
+_OBJC_IVAR_$_TYColorValue._sourceRedValue
+_OBJC_IVAR_$_TYColorValue._sourceGreenValue
+_OBJC_IVAR_$_TYColorValue._sourceBlueValue
+_OBJC_METACLASS_$_TYColorValue
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/ColorDisk/ColorModels/TYColorValue.m
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/ColorDisk/ColorModels/TYColorValue.h
+-[TYAnnulusColorView awakeFromNib]
+___34-[TYAnnulusColorView awakeFromNib]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[TYAnnulusColorView initializeBasicLayer]
+-[TYAnnulusColorView initializeGradientLayersWithPath:]
+-[TYAnnulusColorView initializeBrightnessLayer]
+-[TYAnnulusColorView initializeBrightnessOperationView]
+-[TYAnnulusColorView initializeSwitchButton]
+-[TYAnnulusColorView calculateRadius]
+-[TYAnnulusColorView annulusWithStartDgree:endDgree:]
+-[TYAnnulusColorView startWithAnimation:]
+-[TYAnnulusColorView toJudgeDirection]
+-[TYAnnulusColorView calculateDegree]
+-[TYAnnulusColorView changeBrightnessLayerWithBrightnessNumber:]
+-[TYAnnulusColorView switchButtonClicked:]
+-[TYAnnulusColorView touchesBegan:withEvent:]
+-[TYAnnulusColorView touchesMoved:withEvent:]
+___45-[TYAnnulusColorView touchesMoved:withEvent:]_block_invoke
+___copy_helper_block_.188
+___destroy_helper_block_.189
+-[TYAnnulusColorView touchesEnded:withEvent:]
+___45-[TYAnnulusColorView touchesEnded:withEvent:]_block_invoke
+___copy_helper_block_.194
+___destroy_helper_block_.195
+-[TYAnnulusColorView touchesCancelled:withEvent:]
+-[TYAnnulusColorView brightnessDidChanged:]
+-[TYAnnulusColorView delegate]
+-[TYAnnulusColorView setDelegate:]
+-[TYAnnulusColorView gradientLayerArray]
+-[TYAnnulusColorView setGradientLayerArray:]
+-[TYAnnulusColorView strokeColor]
+-[TYAnnulusColorView setStrokeColor:]
+-[TYAnnulusColorView annulusWidth]
+-[TYAnnulusColorView setAnnulusWidth:]
+-[TYAnnulusColorView gradientGroup]
+-[TYAnnulusColorView setGradientGroup:]
+-[TYAnnulusColorView annulusShapeLayer]
+-[TYAnnulusColorView setAnnulusShapeLayer:]
+-[TYAnnulusColorView hasLoadedAwakeNib]
+-[TYAnnulusColorView setHasLoadedAwakeNib:]
+-[TYAnnulusColorView brightnessLayer]
+-[TYAnnulusColorView setBrightnessLayer:]
+-[TYAnnulusColorView imageView]
+-[TYAnnulusColorView setImageView:]
+-[TYAnnulusColorView switchButton]
+-[TYAnnulusColorView setSwitchButton:]
+-[TYAnnulusColorView .cxx_destruct]
+_OBJC_CLASS_$_TYAnnulusColorView
+_OBJC_IVAR_$_TYAnnulusColorView._centerPoint
+___block_descriptor_tmp
+_OBJC_IVAR_$_TYAnnulusColorView._endPoint
+_OBJC_IVAR_$_TYAnnulusColorView._lastPoint
+___block_descriptor_tmp.191
+___block_descriptor_tmp.196
+_OBJC_IVAR_$_TYAnnulusColorView._delegate
+_OBJC_IVAR_$_TYAnnulusColorView._gradientLayerArray
+_OBJC_IVAR_$_TYAnnulusColorView._strokeColor
+_OBJC_IVAR_$_TYAnnulusColorView._annulusWidth
+_OBJC_IVAR_$_TYAnnulusColorView._gradientGroup
+_OBJC_IVAR_$_TYAnnulusColorView._annulusShapeLayer
+_OBJC_IVAR_$_TYAnnulusColorView._hasLoadedAwakeNib
+_OBJC_IVAR_$_TYAnnulusColorView._brightnessLayer
+_OBJC_IVAR_$_TYAnnulusColorView._imageView
+_OBJC_IVAR_$_TYAnnulusColorView._switchButton
+l_OBJC_PROTOCOL_$_BrightnessOperationViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_BrightnessOperationViewDelegate
+_OBJC_METACLASS_$_TYAnnulusColorView
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/ColorDisk/ColorView/TYAnnulusColorView.m
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/ColorDisk/ColorView/TYAnnulusColorView.h
+__destroy_helper_block_
+__copy_helper_block_
+__45-[TYAnnulusColorView touchesEnded:withEvent:]_block_invoke
+__CGPointEqualToPoint
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+__45-[TYAnnulusColorView touchesMoved:withEvent:]_block_invoke
+__34-[TYAnnulusColorView awakeFromNib]_block_invoke
+/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk/main.m
+main

@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5251A9C71E920B1E0002E698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251A9C61E920B1E0002E698 /* main.m */; };
+		5251A9CA1E920B1E0002E698 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251A9C91E920B1E0002E698 /* AppDelegate.m */; };
+		5251A9CD1E920B1E0002E698 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251A9CC1E920B1E0002E698 /* ViewController.m */; };
+		5251A9D01E920B1E0002E698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5251A9CE1E920B1E0002E698 /* Main.storyboard */; };
+		5251A9D21E920B1E0002E698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5251A9D11E920B1E0002E698 /* Assets.xcassets */; };
+		5251A9D51E920B1E0002E698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5251A9D31E920B1E0002E698 /* LaunchScreen.storyboard */; };
+		5251A9E01E920B1E0002E698 /* TYColorDiskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251A9DF1E920B1E0002E698 /* TYColorDiskTests.m */; };
+		5251A9EB1E920B1E0002E698 /* TYColorDiskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251A9EA1E920B1E0002E698 /* TYColorDiskUITests.m */; };
+		5251AA0F1E920C900002E698 /* BrightnessOperation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA001E920C900002E698 /* BrightnessOperation.xib */; };
+		5251AA101E920C900002E698 /* BrightnessOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA021E920C900002E698 /* BrightnessOperationView.m */; };
+		5251AA111E920C900002E698 /* TYColorSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA051E920C900002E698 /* TYColorSpace.m */; };
+		5251AA121E920C900002E698 /* TYColorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA071E920C900002E698 /* TYColorValue.m */; };
+		5251AA131E920C900002E698 /* TYAnnulusColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA0A1E920C900002E698 /* TYAnnulusColorView.m */; };
+		5251AA141E920C900002E698 /* TYGradientGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA0C1E920C900002E698 /* TYGradientGroup.m */; };
+		5251AA151E920C900002E698 /* TYGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA0E1E920C900002E698 /* TYGradientLayer.m */; };
+		5251AA1E1E920D950002E698 /* backCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA171E920D950002E698 /* backCircle.png */; };
+		5251AA1F1E920D950002E698 /* body_ gliding_42x42.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA181E920D950002E698 /* body_ gliding_42x42.png */; };
+		5251AA201E920D950002E698 /* cdOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA191E920D950002E698 /* cdOff.png */; };
+		5251AA211E920D950002E698 /* cdOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA1A1E920D950002E698 /* cdOn.png */; };
+		5251AA221E920D950002E698 /* coSele.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA1B1E920D950002E698 /* coSele.png */; };
+		5251AA231E920D950002E698 /* halo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA1C1E920D950002E698 /* halo.png */; };
+		5251AA241E920D950002E698 /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA1D1E920D950002E698 /* light.png */; };
+		5251AA271E9241440002E698 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251A9CC1E920B1E0002E698 /* ViewController.m */; };
+		5251AA281E9241440002E698 /* TYGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA0E1E920C900002E698 /* TYGradientLayer.m */; };
+		5251AA291E9241440002E698 /* BrightnessOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA021E920C900002E698 /* BrightnessOperationView.m */; };
+		5251AA2A1E9241440002E698 /* TYColorSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA051E920C900002E698 /* TYColorSpace.m */; };
+		5251AA2B1E9241440002E698 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251A9C91E920B1E0002E698 /* AppDelegate.m */; };
+		5251AA2C1E9241440002E698 /* TYGradientGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA0C1E920C900002E698 /* TYGradientGroup.m */; };
+		5251AA2D1E9241440002E698 /* TYColorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA071E920C900002E698 /* TYColorValue.m */; };
+		5251AA2E1E9241440002E698 /* TYAnnulusColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA0A1E920C900002E698 /* TYAnnulusColorView.m */; };
+		5251AA2F1E9241440002E698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251A9C61E920B1E0002E698 /* main.m */; };
+		5251AA321E9241440002E698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5251A9D31E920B1E0002E698 /* LaunchScreen.storyboard */; };
+		5251AA331E9241440002E698 /* halo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA1C1E920D950002E698 /* halo.png */; };
+		5251AA341E9241440002E698 /* backCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA171E920D950002E698 /* backCircle.png */; };
+		5251AA351E9241440002E698 /* body_ gliding_42x42.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA181E920D950002E698 /* body_ gliding_42x42.png */; };
+		5251AA361E9241440002E698 /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA1D1E920D950002E698 /* light.png */; };
+		5251AA371E9241440002E698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5251A9D11E920B1E0002E698 /* Assets.xcassets */; };
+		5251AA381E9241440002E698 /* BrightnessOperation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA001E920C900002E698 /* BrightnessOperation.xib */; };
+		5251AA391E9241440002E698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5251A9CE1E920B1E0002E698 /* Main.storyboard */; };
+		5251AA3A1E9241440002E698 /* coSele.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA1B1E920D950002E698 /* coSele.png */; };
+		5251AA3B1E9241440002E698 /* cdOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA191E920D950002E698 /* cdOff.png */; };
+		5251AA3C1E9241440002E698 /* cdOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA1A1E920D950002E698 /* cdOn.png */; };
+		5251AA441E9241540002E698 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251A9CC1E920B1E0002E698 /* ViewController.m */; };
+		5251AA451E9241540002E698 /* TYGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA0E1E920C900002E698 /* TYGradientLayer.m */; };
+		5251AA461E9241540002E698 /* BrightnessOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA021E920C900002E698 /* BrightnessOperationView.m */; };
+		5251AA471E9241540002E698 /* TYColorSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA051E920C900002E698 /* TYColorSpace.m */; };
+		5251AA481E9241540002E698 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251A9C91E920B1E0002E698 /* AppDelegate.m */; };
+		5251AA491E9241540002E698 /* TYGradientGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA0C1E920C900002E698 /* TYGradientGroup.m */; };
+		5251AA4A1E9241540002E698 /* TYColorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA071E920C900002E698 /* TYColorValue.m */; };
+		5251AA4B1E9241540002E698 /* TYAnnulusColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251AA0A1E920C900002E698 /* TYAnnulusColorView.m */; };
+		5251AA4C1E9241540002E698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5251A9C61E920B1E0002E698 /* main.m */; };
+		5251AA4F1E9241540002E698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5251A9D31E920B1E0002E698 /* LaunchScreen.storyboard */; };
+		5251AA501E9241540002E698 /* halo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA1C1E920D950002E698 /* halo.png */; };
+		5251AA511E9241540002E698 /* backCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA171E920D950002E698 /* backCircle.png */; };
+		5251AA521E9241540002E698 /* body_ gliding_42x42.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA181E920D950002E698 /* body_ gliding_42x42.png */; };
+		5251AA531E9241540002E698 /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA1D1E920D950002E698 /* light.png */; };
+		5251AA541E9241540002E698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5251A9D11E920B1E0002E698 /* Assets.xcassets */; };
+		5251AA551E9241540002E698 /* BrightnessOperation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA001E920C900002E698 /* BrightnessOperation.xib */; };
+		5251AA561E9241540002E698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5251A9CE1E920B1E0002E698 /* Main.storyboard */; };
+		5251AA571E9241540002E698 /* coSele.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA1B1E920D950002E698 /* coSele.png */; };
+		5251AA581E9241540002E698 /* cdOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA191E920D950002E698 /* cdOff.png */; };
+		5251AA591E9241540002E698 /* cdOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251AA1A1E920D950002E698 /* cdOn.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5251A9DC1E920B1E0002E698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5251A9BA1E920B1E0002E698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5251A9C11E920B1E0002E698;
+			remoteInfo = TYColorDisk;
+		};
+		5251A9E71E920B1E0002E698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5251A9BA1E920B1E0002E698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5251A9C11E920B1E0002E698;
+			remoteInfo = TYColorDisk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5251A9C21E920B1E0002E698 /* TYColorDisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYColorDisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5251A9C61E920B1E0002E698 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5251A9C81E920B1E0002E698 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5251A9C91E920B1E0002E698 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5251A9CB1E920B1E0002E698 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5251A9CC1E920B1E0002E698 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5251A9CF1E920B1E0002E698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5251A9D11E920B1E0002E698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5251A9D41E920B1E0002E698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5251A9D61E920B1E0002E698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5251A9DB1E920B1E0002E698 /* TYColorDiskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYColorDiskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5251A9DF1E920B1E0002E698 /* TYColorDiskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYColorDiskTests.m; sourceTree = "<group>"; };
+		5251A9E11E920B1E0002E698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5251A9E61E920B1E0002E698 /* TYColorDiskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYColorDiskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5251A9EA1E920B1E0002E698 /* TYColorDiskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYColorDiskUITests.m; sourceTree = "<group>"; };
+		5251A9EC1E920B1E0002E698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5251AA001E920C900002E698 /* BrightnessOperation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrightnessOperation.xib; sourceTree = "<group>"; };
+		5251AA011E920C900002E698 /* BrightnessOperationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrightnessOperationView.h; sourceTree = "<group>"; };
+		5251AA021E920C900002E698 /* BrightnessOperationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrightnessOperationView.m; sourceTree = "<group>"; };
+		5251AA041E920C900002E698 /* TYColorSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYColorSpace.h; sourceTree = "<group>"; };
+		5251AA051E920C900002E698 /* TYColorSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYColorSpace.m; sourceTree = "<group>"; };
+		5251AA061E920C900002E698 /* TYColorValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYColorValue.h; sourceTree = "<group>"; };
+		5251AA071E920C900002E698 /* TYColorValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYColorValue.m; sourceTree = "<group>"; };
+		5251AA091E920C900002E698 /* TYAnnulusColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAnnulusColorView.h; sourceTree = "<group>"; };
+		5251AA0A1E920C900002E698 /* TYAnnulusColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAnnulusColorView.m; sourceTree = "<group>"; };
+		5251AA0B1E920C900002E698 /* TYGradientGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYGradientGroup.h; sourceTree = "<group>"; };
+		5251AA0C1E920C900002E698 /* TYGradientGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYGradientGroup.m; sourceTree = "<group>"; };
+		5251AA0D1E920C900002E698 /* TYGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYGradientLayer.h; sourceTree = "<group>"; };
+		5251AA0E1E920C900002E698 /* TYGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYGradientLayer.m; sourceTree = "<group>"; };
+		5251AA171E920D950002E698 /* backCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backCircle.png; sourceTree = "<group>"; };
+		5251AA181E920D950002E698 /* body_ gliding_42x42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "body_ gliding_42x42.png"; sourceTree = "<group>"; };
+		5251AA191E920D950002E698 /* cdOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cdOff.png; sourceTree = "<group>"; };
+		5251AA1A1E920D950002E698 /* cdOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cdOn.png; sourceTree = "<group>"; };
+		5251AA1B1E920D950002E698 /* coSele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coSele.png; sourceTree = "<group>"; };
+		5251AA1C1E920D950002E698 /* halo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = halo.png; sourceTree = "<group>"; };
+		5251AA1D1E920D950002E698 /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light.png; sourceTree = "<group>"; };
+		5251AA401E9241440002E698 /* TYColorDisk10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYColorDisk10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5251AA411E9241440002E698 /* TYColorDisk 10.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TYColorDisk 10.plist"; path = "/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk 10.plist"; sourceTree = "<absolute>"; };
+		5251AA5D1E9241540002E698 /* TYColorDiskDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYColorDiskDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5251AA5E1E9241540002E698 /* TYColorDisk Dev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TYColorDisk Dev.plist"; path = "/Users/demon_yao/GithubRepositories/TYColorDisk/TYColorDisk Dev.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5251A9BF1E920B1E0002E698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251A9D81E920B1E0002E698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251A9E31E920B1E0002E698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251AA301E9241440002E698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251AA4D1E9241540002E698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5251A9B91E920B1E0002E698 = {
+			isa = PBXGroup;
+			children = (
+				5251A9C41E920B1E0002E698 /* TYColorDisk */,
+				5251A9DE1E920B1E0002E698 /* TYColorDiskTests */,
+				5251A9E91E920B1E0002E698 /* TYColorDiskUITests */,
+				5251A9C31E920B1E0002E698 /* Products */,
+				5251AA411E9241440002E698 /* TYColorDisk 10.plist */,
+				5251AA5E1E9241540002E698 /* TYColorDisk Dev.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		5251A9C31E920B1E0002E698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5251A9C21E920B1E0002E698 /* TYColorDisk.app */,
+				5251A9DB1E920B1E0002E698 /* TYColorDiskTests.xctest */,
+				5251A9E61E920B1E0002E698 /* TYColorDiskUITests.xctest */,
+				5251AA401E9241440002E698 /* TYColorDisk10.app */,
+				5251AA5D1E9241540002E698 /* TYColorDiskDev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5251A9C41E920B1E0002E698 /* TYColorDisk */ = {
+			isa = PBXGroup;
+			children = (
+				5251AA161E920D950002E698 /* Images */,
+				5251A9FE1E920C900002E698 /* ColorDisk */,
+				5251A9C81E920B1E0002E698 /* AppDelegate.h */,
+				5251A9C91E920B1E0002E698 /* AppDelegate.m */,
+				5251A9CB1E920B1E0002E698 /* ViewController.h */,
+				5251A9CC1E920B1E0002E698 /* ViewController.m */,
+				5251A9CE1E920B1E0002E698 /* Main.storyboard */,
+				5251A9D11E920B1E0002E698 /* Assets.xcassets */,
+				5251A9D31E920B1E0002E698 /* LaunchScreen.storyboard */,
+				5251A9D61E920B1E0002E698 /* Info.plist */,
+				5251A9C51E920B1E0002E698 /* Supporting Files */,
+			);
+			path = TYColorDisk;
+			sourceTree = "<group>";
+		};
+		5251A9C51E920B1E0002E698 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5251A9C61E920B1E0002E698 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5251A9DE1E920B1E0002E698 /* TYColorDiskTests */ = {
+			isa = PBXGroup;
+			children = (
+				5251A9DF1E920B1E0002E698 /* TYColorDiskTests.m */,
+				5251A9E11E920B1E0002E698 /* Info.plist */,
+			);
+			path = TYColorDiskTests;
+			sourceTree = "<group>";
+		};
+		5251A9E91E920B1E0002E698 /* TYColorDiskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5251A9EA1E920B1E0002E698 /* TYColorDiskUITests.m */,
+				5251A9EC1E920B1E0002E698 /* Info.plist */,
+			);
+			path = TYColorDiskUITests;
+			sourceTree = "<group>";
+		};
+		5251A9FE1E920C900002E698 /* ColorDisk */ = {
+			isa = PBXGroup;
+			children = (
+				5251A9FF1E920C900002E698 /* BrighrnessView */,
+				5251AA031E920C900002E698 /* ColorModels */,
+				5251AA081E920C900002E698 /* ColorView */,
+			);
+			path = ColorDisk;
+			sourceTree = "<group>";
+		};
+		5251A9FF1E920C900002E698 /* BrighrnessView */ = {
+			isa = PBXGroup;
+			children = (
+				5251AA001E920C900002E698 /* BrightnessOperation.xib */,
+				5251AA011E920C900002E698 /* BrightnessOperationView.h */,
+				5251AA021E920C900002E698 /* BrightnessOperationView.m */,
+			);
+			path = BrighrnessView;
+			sourceTree = "<group>";
+		};
+		5251AA031E920C900002E698 /* ColorModels */ = {
+			isa = PBXGroup;
+			children = (
+				5251AA041E920C900002E698 /* TYColorSpace.h */,
+				5251AA051E920C900002E698 /* TYColorSpace.m */,
+				5251AA061E920C900002E698 /* TYColorValue.h */,
+				5251AA071E920C900002E698 /* TYColorValue.m */,
+			);
+			path = ColorModels;
+			sourceTree = "<group>";
+		};
+		5251AA081E920C900002E698 /* ColorView */ = {
+			isa = PBXGroup;
+			children = (
+				5251AA091E920C900002E698 /* TYAnnulusColorView.h */,
+				5251AA0A1E920C900002E698 /* TYAnnulusColorView.m */,
+				5251AA0B1E920C900002E698 /* TYGradientGroup.h */,
+				5251AA0C1E920C900002E698 /* TYGradientGroup.m */,
+				5251AA0D1E920C900002E698 /* TYGradientLayer.h */,
+				5251AA0E1E920C900002E698 /* TYGradientLayer.m */,
+			);
+			path = ColorView;
+			sourceTree = "<group>";
+		};
+		5251AA161E920D950002E698 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5251AA171E920D950002E698 /* backCircle.png */,
+				5251AA181E920D950002E698 /* body_ gliding_42x42.png */,
+				5251AA191E920D950002E698 /* cdOff.png */,
+				5251AA1A1E920D950002E698 /* cdOn.png */,
+				5251AA1B1E920D950002E698 /* coSele.png */,
+				5251AA1C1E920D950002E698 /* halo.png */,
+				5251AA1D1E920D950002E698 /* light.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5251A9C11E920B1E0002E698 /* TYColorDisk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5251A9EF1E920B1E0002E698 /* Build configuration list for PBXNativeTarget "TYColorDisk" */;
+			buildPhases = (
+				5251A9BE1E920B1E0002E698 /* Sources */,
+				5251A9BF1E920B1E0002E698 /* Frameworks */,
+				5251A9C01E920B1E0002E698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYColorDisk;
+			productName = TYColorDisk;
+			productReference = 5251A9C21E920B1E0002E698 /* TYColorDisk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5251A9DA1E920B1E0002E698 /* TYColorDiskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5251A9F21E920B1E0002E698 /* Build configuration list for PBXNativeTarget "TYColorDiskTests" */;
+			buildPhases = (
+				5251A9D71E920B1E0002E698 /* Sources */,
+				5251A9D81E920B1E0002E698 /* Frameworks */,
+				5251A9D91E920B1E0002E698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5251A9DD1E920B1E0002E698 /* PBXTargetDependency */,
+			);
+			name = TYColorDiskTests;
+			productName = TYColorDiskTests;
+			productReference = 5251A9DB1E920B1E0002E698 /* TYColorDiskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5251A9E51E920B1E0002E698 /* TYColorDiskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5251A9F51E920B1E0002E698 /* Build configuration list for PBXNativeTarget "TYColorDiskUITests" */;
+			buildPhases = (
+				5251A9E21E920B1E0002E698 /* Sources */,
+				5251A9E31E920B1E0002E698 /* Frameworks */,
+				5251A9E41E920B1E0002E698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5251A9E81E920B1E0002E698 /* PBXTargetDependency */,
+			);
+			name = TYColorDiskUITests;
+			productName = TYColorDiskUITests;
+			productReference = 5251A9E61E920B1E0002E698 /* TYColorDiskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5251AA251E9241440002E698 /* TYColorDisk10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5251AA3D1E9241440002E698 /* Build configuration list for PBXNativeTarget "TYColorDisk10" */;
+			buildPhases = (
+				5251AA261E9241440002E698 /* Sources */,
+				5251AA301E9241440002E698 /* Frameworks */,
+				5251AA311E9241440002E698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYColorDisk10;
+			productName = TYColorDisk;
+			productReference = 5251AA401E9241440002E698 /* TYColorDisk10.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5251AA421E9241540002E698 /* TYColorDiskDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5251AA5A1E9241540002E698 /* Build configuration list for PBXNativeTarget "TYColorDiskDev" */;
+			buildPhases = (
+				5251AA431E9241540002E698 /* Sources */,
+				5251AA4D1E9241540002E698 /* Frameworks */,
+				5251AA4E1E9241540002E698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYColorDiskDev;
+			productName = TYColorDisk;
+			productReference = 5251AA5D1E9241540002E698 /* TYColorDiskDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5251A9BA1E920B1E0002E698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tyrone Zhang";
+				TargetAttributes = {
+					5251A9C11E920B1E0002E698 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Manual;
+					};
+					5251A9DA1E920B1E0002E698 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Z9HQ27ZS5C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5251A9C11E920B1E0002E698;
+					};
+					5251A9E51E920B1E0002E698 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Z9HQ27ZS5C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5251A9C11E920B1E0002E698;
+					};
+					5251AA251E9241440002E698 = {
+						ProvisioningStyle = Manual;
+					};
+					5251AA421E9241540002E698 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 5251A9BD1E920B1E0002E698 /* Build configuration list for PBXProject "TYColorDisk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5251A9B91E920B1E0002E698;
+			productRefGroup = 5251A9C31E920B1E0002E698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5251A9C11E920B1E0002E698 /* TYColorDisk */,
+				5251A9DA1E920B1E0002E698 /* TYColorDiskTests */,
+				5251A9E51E920B1E0002E698 /* TYColorDiskUITests */,
+				5251AA251E9241440002E698 /* TYColorDisk10 */,
+				5251AA421E9241540002E698 /* TYColorDiskDev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5251A9C01E920B1E0002E698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5251A9D51E920B1E0002E698 /* LaunchScreen.storyboard in Resources */,
+				5251AA231E920D950002E698 /* halo.png in Resources */,
+				5251AA1E1E920D950002E698 /* backCircle.png in Resources */,
+				5251AA1F1E920D950002E698 /* body_ gliding_42x42.png in Resources */,
+				5251AA241E920D950002E698 /* light.png in Resources */,
+				5251A9D21E920B1E0002E698 /* Assets.xcassets in Resources */,
+				5251AA0F1E920C900002E698 /* BrightnessOperation.xib in Resources */,
+				5251A9D01E920B1E0002E698 /* Main.storyboard in Resources */,
+				5251AA221E920D950002E698 /* coSele.png in Resources */,
+				5251AA201E920D950002E698 /* cdOff.png in Resources */,
+				5251AA211E920D950002E698 /* cdOn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251A9D91E920B1E0002E698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251A9E41E920B1E0002E698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251AA311E9241440002E698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5251AA321E9241440002E698 /* LaunchScreen.storyboard in Resources */,
+				5251AA331E9241440002E698 /* halo.png in Resources */,
+				5251AA341E9241440002E698 /* backCircle.png in Resources */,
+				5251AA351E9241440002E698 /* body_ gliding_42x42.png in Resources */,
+				5251AA361E9241440002E698 /* light.png in Resources */,
+				5251AA371E9241440002E698 /* Assets.xcassets in Resources */,
+				5251AA381E9241440002E698 /* BrightnessOperation.xib in Resources */,
+				5251AA391E9241440002E698 /* Main.storyboard in Resources */,
+				5251AA3A1E9241440002E698 /* coSele.png in Resources */,
+				5251AA3B1E9241440002E698 /* cdOff.png in Resources */,
+				5251AA3C1E9241440002E698 /* cdOn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251AA4E1E9241540002E698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5251AA4F1E9241540002E698 /* LaunchScreen.storyboard in Resources */,
+				5251AA501E9241540002E698 /* halo.png in Resources */,
+				5251AA511E9241540002E698 /* backCircle.png in Resources */,
+				5251AA521E9241540002E698 /* body_ gliding_42x42.png in Resources */,
+				5251AA531E9241540002E698 /* light.png in Resources */,
+				5251AA541E9241540002E698 /* Assets.xcassets in Resources */,
+				5251AA551E9241540002E698 /* BrightnessOperation.xib in Resources */,
+				5251AA561E9241540002E698 /* Main.storyboard in Resources */,
+				5251AA571E9241540002E698 /* coSele.png in Resources */,
+				5251AA581E9241540002E698 /* cdOff.png in Resources */,
+				5251AA591E9241540002E698 /* cdOn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5251A9BE1E920B1E0002E698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5251A9CD1E920B1E0002E698 /* ViewController.m in Sources */,
+				5251AA151E920C900002E698 /* TYGradientLayer.m in Sources */,
+				5251AA101E920C900002E698 /* BrightnessOperationView.m in Sources */,
+				5251AA111E920C900002E698 /* TYColorSpace.m in Sources */,
+				5251A9CA1E920B1E0002E698 /* AppDelegate.m in Sources */,
+				5251AA141E920C900002E698 /* TYGradientGroup.m in Sources */,
+				5251AA121E920C900002E698 /* TYColorValue.m in Sources */,
+				5251AA131E920C900002E698 /* TYAnnulusColorView.m in Sources */,
+				5251A9C71E920B1E0002E698 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251A9D71E920B1E0002E698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5251A9E01E920B1E0002E698 /* TYColorDiskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251A9E21E920B1E0002E698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5251A9EB1E920B1E0002E698 /* TYColorDiskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251AA261E9241440002E698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5251AA271E9241440002E698 /* ViewController.m in Sources */,
+				5251AA281E9241440002E698 /* TYGradientLayer.m in Sources */,
+				5251AA291E9241440002E698 /* BrightnessOperationView.m in Sources */,
+				5251AA2A1E9241440002E698 /* TYColorSpace.m in Sources */,
+				5251AA2B1E9241440002E698 /* AppDelegate.m in Sources */,
+				5251AA2C1E9241440002E698 /* TYGradientGroup.m in Sources */,
+				5251AA2D1E9241440002E698 /* TYColorValue.m in Sources */,
+				5251AA2E1E9241440002E698 /* TYAnnulusColorView.m in Sources */,
+				5251AA2F1E9241440002E698 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251AA431E9241540002E698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5251AA441E9241540002E698 /* ViewController.m in Sources */,
+				5251AA451E9241540002E698 /* TYGradientLayer.m in Sources */,
+				5251AA461E9241540002E698 /* BrightnessOperationView.m in Sources */,
+				5251AA471E9241540002E698 /* TYColorSpace.m in Sources */,
+				5251AA481E9241540002E698 /* AppDelegate.m in Sources */,
+				5251AA491E9241540002E698 /* TYGradientGroup.m in Sources */,
+				5251AA4A1E9241540002E698 /* TYColorValue.m in Sources */,
+				5251AA4B1E9241540002E698 /* TYAnnulusColorView.m in Sources */,
+				5251AA4C1E9241540002E698 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5251A9DD1E920B1E0002E698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5251A9C11E920B1E0002E698 /* TYColorDisk */;
+			targetProxy = 5251A9DC1E920B1E0002E698 /* PBXContainerItemProxy */;
+		};
+		5251A9E81E920B1E0002E698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5251A9C11E920B1E0002E698 /* TYColorDisk */;
+			targetProxy = 5251A9E71E920B1E0002E698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5251A9CE1E920B1E0002E698 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5251A9CF1E920B1E0002E698 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5251A9D31E920B1E0002E698 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5251A9D41E920B1E0002E698 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5251A9ED1E920B1E0002E698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5251A9EE1E920B1E0002E698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5251A9F01E920B1E0002E698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TYColorDisk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYColorDisk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5251A9F11E920B1E0002E698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TYColorDisk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYColorDisk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5251A9F31E920B1E0002E698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z9HQ27ZS5C;
+				INFOPLIST_FILE = TYColorDiskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYColorDiskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYColorDisk.app/TYColorDisk";
+			};
+			name = Debug;
+		};
+		5251A9F41E920B1E0002E698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z9HQ27ZS5C;
+				INFOPLIST_FILE = TYColorDiskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYColorDiskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYColorDisk.app/TYColorDisk";
+			};
+			name = Release;
+		};
+		5251A9F61E920B1E0002E698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z9HQ27ZS5C;
+				INFOPLIST_FILE = TYColorDiskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYColorDiskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYColorDisk;
+			};
+			name = Debug;
+		};
+		5251A9F71E920B1E0002E698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z9HQ27ZS5C;
+				INFOPLIST_FILE = TYColorDiskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYColorDiskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYColorDisk;
+			};
+			name = Release;
+		};
+		5251AA3E1E9241440002E698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/TYColorDisk 10.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYColorDisk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5251AA3F1E9241440002E698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/TYColorDisk 10.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYColorDisk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5251AA5B1E9241540002E698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "TYColorDisk Dev.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYColorDisk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5251AA5C1E9241540002E698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "TYColorDisk Dev.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYColorDisk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5251A9BD1E920B1E0002E698 /* Build configuration list for PBXProject "TYColorDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5251A9ED1E920B1E0002E698 /* Debug */,
+				5251A9EE1E920B1E0002E698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5251A9EF1E920B1E0002E698 /* Build configuration list for PBXNativeTarget "TYColorDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5251A9F01E920B1E0002E698 /* Debug */,
+				5251A9F11E920B1E0002E698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5251A9F21E920B1E0002E698 /* Build configuration list for PBXNativeTarget "TYColorDiskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5251A9F31E920B1E0002E698 /* Debug */,
+				5251A9F41E920B1E0002E698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5251A9F51E920B1E0002E698 /* Build configuration list for PBXNativeTarget "TYColorDiskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5251A9F61E920B1E0002E698 /* Debug */,
+				5251A9F71E920B1E0002E698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5251AA3D1E9241440002E698 /* Build configuration list for PBXNativeTarget "TYColorDisk10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5251AA3E1E9241440002E698 /* Debug */,
+				5251AA3F1E9241440002E698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5251AA5A1E9241540002E698 /* Build configuration list for PBXNativeTarget "TYColorDiskDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5251AA5B1E9241540002E698 /* Debug */,
+				5251AA5C1E9241540002E698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5251A9BA1E920B1E0002E698 /* Project object */;
+}
